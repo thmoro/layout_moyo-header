@@ -5,7 +5,7 @@ html {
   font-style: normal;
   font-variation-settings: 'wdth' 100;
 
-  --primary-color: #00ACDC;
+  --primary-color: #00acdc;
 }
 
 body {
@@ -38,6 +38,7 @@ body {
 .list_link {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
@@ -71,7 +72,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #00acdc;
+  background-color: var(--primary-color);
   height: 4px;
   border-radius: 8px;
 }
