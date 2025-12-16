@@ -4,6 +4,8 @@ html {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: 'wdth' 100;
+
+  --primary-color: #00ACDC;
 }
 
 body {
@@ -54,12 +56,12 @@ body {
 }
 
 .list_link:hover {
-  color: #00acdc;
+  color: var(--primary-color);
 }
 
 .is-active {
   position: relative;
-  color: #00acdc;
+  color: var(--primary-color);
 }
 
 .is-active::after {
