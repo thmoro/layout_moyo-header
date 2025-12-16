@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
+  text-transform: uppercase;
   color: #000;
   height: 60px;
 }
